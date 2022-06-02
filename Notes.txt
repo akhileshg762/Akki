@@ -1,0 +1,150 @@
+
+69dywjG4
+class Test
+{
+
+   
+  public static void main(String [] args)
+{
+   int a=1;
+   int b= 8;
+   int c= 12;
+   int d = 15;
+}
+public static int isInRange(int m1,int m2){
+   int isin;
+   int m1=10;
+   int m2=5;
+   if (m1 < m2)
+        {
+		 return 0;
+      }else
+	  {
+        
+
+      return 0;
+   
+   }
+
+
+cd /opt/wicp/apache-tomcat/webapps/smsc/provisioning/smsc/jsp
+
+
+cd /opt/wicp/apache-tomcat/webapps/smsc/WEB-INF/classes
+
+
+[scuser@localhost ~]$ mysql -ubmp -pbmp@T4y4n4 BMPDB -h10.0.5.107
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 123
+Server version: 8.0.21 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql>
+
+you should try connecting from 10.0.5.107 server
+
+steps to be followed to connect to DB
+
+1) Login to 10.0.5.107 scuser/scuser
+
+2) mysql -ubmp -pbmp@T4y4n4 BMPDB -h10.0.5.107
+
+
+
+
+
+ArrayList   al =new ArrayList();
+680   AccountConf acfj= new AccountConf();
+681 Object [] acrnt=null;
+682
+683 try{
+684       selres =  acfj.getApiList(  request , response,  session);
+685
+686             selres.add("0072");
+687             selres.add("api1");
+688             selres.add(" first api user");
+689             selres.add("group1 ");
+690             selres.add("active");
+691             selres.add("mode");
+692
+693
+694       if(selres!=null && selres.size()>0)
+695       {
+696          acrnt=selres.toArray();
+697          ance = acrnt.length/7;
+698                  }
+699
+700     }catch(Exception e){
+701 System.out.println("Exception from java method : "+e);
+702 }
+703
+704
+705
+706 ArrayList   al =new ArrayList();
+707   AccountConf acfj= new AccountConf();
+708 Object [] acrnt=null;
+try{
+711       selres =  acfj.getHostIpList(  request , response,  session);
+712
+713             selres.add("1428");
+714             selres.add("host1");
+715             selres.add(" first host ip user");
+716             selres.add("active ");
+717
+718
+719       if(selres!=null && selres.size()>0)
+720       {
+721          acrnt=selres.toArray();
+722          ance = acrnt.length/7;
+723                  }
+724
+725     }catch(Exception e){
+726 System.out.println("Exception from java method : "+e);
+727 }
+
+
+
+
+
+
+
+
+
+
+//Api Id
+ 68 String applId="";
+ 69    if(request.getParameter("apiId") != null)
+ 70     {
+ 71        apiId = request.getParameter("apiId");
+ 72     }
+ 73 // Api Name
+ 74
+ 75   String apiname="";
+ 76    if(request.getParameter("apiname") != null)
+ 77     {
+ 78          apiname = request.getParameter("apiname");
+ 79     }
+ 80
+ 81  //Host Id
+ 82  String hostid="";
+ 83    if(request.getParameter("hostid") != null)
+ 84     {
+ 85         hostid = request.getParameter("hostid");
+ 86     }
+ 87  // Host Name
+ 88  String hostname="";
+ 89     if(request.getParameter("hostname") != null)
+ 90      {
+ 91           hostname = request.getParameter("hostname");
+ 92      }
